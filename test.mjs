@@ -14,6 +14,7 @@ import * as vite from 'vite'
         // should log "true",
         // even explicitly setting "mode" just above!
         console.log(resolvedConfig.isProduction)
+        console.log(resolvedConfig.mode)
       }
     }]
   })
